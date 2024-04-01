@@ -1,0 +1,6 @@
+<svg width="340" height="340" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+    <symbol id="triangle" viewBox="0 0 340 340">
+        <polygon points="20,20 150,320 320,20" stroke-width="15" stroke="black" stroke-linecap="round"></polygon> 
+        <polyline points="20,20 150,160 320,20" stroke-width="20" stroke="black" stroke-linecap="round" stroke-linejoin="round"></polyline>
+        <line x1="150" y1="160" x2="150" y2="320" stroke-width="15" stroke="black" stroke-linecap="round"></line>
+</svg>

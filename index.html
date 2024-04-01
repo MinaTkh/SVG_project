@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="svg-file" href="images/triangle.svg">
     <title>SVG</title>
 </head>
 <body>
     <svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg"> 
         <circle cx="110" cy="110" r="80" stroke-width="15" fill="white" stroke="black"></circle>
         <line x1="170" y1="170" x2="220" y2="220" stroke-width="15" stroke="black" stroke-linecap="square"></line>
+    </svg>
+    <svg>
+        <use href="images/triangle.svg#triangle"></use>
     </svg>
 </body>
 </html>
